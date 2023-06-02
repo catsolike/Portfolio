@@ -1,0 +1,36 @@
+// #region Font Imports
+
+@font-face {
+    font-family: 'TT Travels';
+    src: url('@/assets/fonts/TTTravels-Regular.eot');
+    src: url('@/assets/fonts/TTTravels-Regular.eot?#iefix') format('embedded-opentype'),
+         url('@/assets/fonts/TTTravels-Regular.woff2') format('woff2'),
+         url('@/assets/fonts/TTTravels-Regular.woff') format('woff'),
+         url('@/assets/fonts/TTTravels-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Travels';
+    src: url('@/assets/fonts/TTTravels-Bold.eot');
+    src: url('@/assets/fonts/TTTravels-Bold.eot?#iefix') format('embedded-opentype'),
+         url('@/assets/fonts/TTTravels-Bold.woff2') format('woff2'),
+         url('@/assets/fonts/TTTravels-Bold.woff') format('woff'),
+         url('@/assets/fonts/TTTravels-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+// #endregion Font Imports
+
+$base-font-family: 'TT Travels';
+$base-font-size: 20px;
+$product-card__font-size: 16px;
+$header__height: 40px;
+$base-padding: 20px;
+
+@import "_reset.scss";
+@import "_colors.scss";
+@import "_scrollbars.scss";
